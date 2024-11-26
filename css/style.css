@@ -1,0 +1,204 @@
+header{
+    background-color: #ff8383;
+    position: relative;
+    height:125px;
+
+}
+h1{
+   
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:65px;
+    color: #012443;
+    margin-left:70px;
+    
+  
+    
+}
+main{
+    background-color: #ffffff;
+}
+
+
+
+.logo{
+    max-width:70px;
+    position:absolute;
+    top:25px;
+    left:4px;
+    border-radius:50%;
+    
+   
+}
+ h2{
+    color: #012443;
+    text-align:center;
+    font-family: "Abril Fatface", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    
+}
+
+p{ 
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 20px;
+   text-align:center;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: 400;
+   font-style: normal;
+   padding: 15px 15px 15px 15px;
+   
+}
+
+
+.bienvenidos{
+   background-color: rgb(253, 210, 191); 
+   max-width: 90%;
+   margin: 0 auto;
+   
+  
+}
+.contenedorPadre{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:900px;
+    background-color:rgb(253, 210, 191);
+    margin:0 auto;
+    max-width:90% ;
+    
+    
+}
+
+
+
+.cardUno{
+    text-align: center;
+    background-color:#012443;
+    margin:0 auto;
+    margin-top:20px;
+    
+}
+.cardDos{
+    text-align: center;
+    background-color:#012443;
+    margin:0 auto;
+    margin-top:60px;
+}
+.cardTres{
+    text-align: center;
+    background-color:#012443;
+
+    margin:0 auto;
+    margin-top:20px;
+}
+.cardCuatro{
+    text-align: center;
+    background-color:#012443;
+    margin:0 auto;
+    margin-top:60px;
+    
+
+}
+.cardCinco{
+    text-align: center;
+    background-color:#012443;
+    margin:0 auto;
+    margin-top:20px;
+}
+.cardSeis{
+    text-align: center;
+    background-color:#012443;
+
+    margin:0 auto;
+    margin-top:60px;
+}
+
+
+.cardImg{
+    max-width:80%;
+    padding:5px ;
+}
+.cardUno:hover{
+    transform:scale(1.2);
+     
+}
+.cardDos:hover{
+      transform:scale(1.2);
+       
+}
+ .cardTres:hover{
+      transform:scale(1.2);
+}
+.cardCuatro:hover{
+      transform:scale(1.2);
+}
+.cardCinco:hover{
+      transform:scale(1.2);
+}
+.cardSeis:hover{
+      transform:scale(1.2);
+}
+
+
+
+ 
+
+i{
+  font-size:40px;
+  
+}
+footer h2{
+   
+    text-align:left;
+    margin-left:5px ;
+    color:beige;
+    font-weight:500;
+    font-size:30px ;
+    
+  
+}
+
+footer{
+    display:flex;
+    background-color: #ff8383;
+    height: 250px; 
+    justify-content:start ; 
+    flex-direction:column;
+
+}
+
+
+
+@media(max-width:900px){
+    .contenedorPadre{
+        display: block;
+        background-color:#579edb;
+     }
+    
+     header{
+        background-color:#579edb;
+     }
+     footer{
+        background-color: #579edb;
+        
+        
+     }
+     h1{
+        color:#ffffff;
+        font-size:50px;
+        bottom:20px;
+     }
+     
+    
+}
+@media(min-width: 950px){
+    .contenedorPadre div{
+        background-color:#012443 ;
+        color:aliceblue
+
+    }
+    
+} 
